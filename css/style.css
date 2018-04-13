@@ -1,0 +1,46 @@
+.container {
+  text-align: left;
+  background-image: url("../img/list-bg.png");
+  
+}
+.column {
+  float: left;
+  width: auto;
+  margin: auto;
+  height: auto;
+  position: relative;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  top: 50%;
+  left: 50%;
+}
+
+.button {
+  float: right;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#vanessa {
+  float: left;
+}
+
+footer {
+  text-align: Center;
+}
+
+#smalllogo {
+  display: block;
+  margin: auto;
+}
