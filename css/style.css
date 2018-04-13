@@ -1,0 +1,54 @@
+.container {
+  text-align: left;
+  background-image: url("../img/list-bg.png");
+  
+}
+.column {
+  float: left;
+  width: auto;
+  margin: auto;
+  height: auto;
+  position: relative;
+}
+
+.indent {
+  text-indent: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  top: 50%;
+  left: 50%;
+}
+
+.button {
+  float: right;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.stripes {
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 2px, black 3px, black 1px);
+    height: 10px;
+  }
+
+#vanessa {
+  float: left;
+}
+
+footer {
+  text-align: Center;
+}
+
+#smalllogo {
+  display: block;
+  margin: auto;
+}
